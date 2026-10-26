@@ -1,6 +1,6 @@
 # Retzos JDE Helper – Privacy Policy
 
-Last updated: 19 October 2026
+Last updated: 26 October 2026
 
 Retzos JDE Helper is a Chrome extension used by the finance team of Retzos Group to work with
 JD Edwards EnterpriseOne (JDE). It is an internal tool. It is not offered to the public and
@@ -12,7 +12,10 @@ is distributed by link only.
   header company and outlines lines that differ.
 - On JDE voucher screens it shows each voucher's GL code, looked up from the company's own
   JDE Helper server.
-- A popup switch turns the extension on or off.
+- A folder at the right edge of the JDE window opens two company pages (a calendar and the
+  store list, both on the company's internal server) in a new tab. Opening them sends
+  nothing from the extension.
+- Popup switches turn the checks on or off and show or hide the folder.
 
 ## Data the extension handles
 
@@ -20,8 +23,8 @@ is distributed by link only.
   document type and document number to the company's JDE Helper server on the company
   network (host `localerp`, port 3100). These identifiers are accounting record keys. They
   are not personal data and they leave the browser only to that server.
-- **On/off setting.** The popup switch is stored in Chrome's extension storage on the
-  user's computer. Nothing else is stored.
+- **Settings.** The popup switches and the folder's position on the page are stored in
+  Chrome's extension storage on the user's computer. Nothing else is stored.
 
 The extension does not collect, store or transmit personal information, browsing history,
 page content outside the JDE screens above, or any data to third parties. It runs only on
