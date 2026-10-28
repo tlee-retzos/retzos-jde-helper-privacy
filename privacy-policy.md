@@ -17,6 +17,13 @@ is distributed by link only.
   nothing from the extension.
 - Popup switches turn the checks on or off and show or hide the folder.
 
+## Retzos JDE Helper - Finance
+
+A second edition for accountants does everything above and also fills in JDE forms the user asks
+it to: manual payments and customer receipts from the vouchers or invoices the user selected. It
+types only into the user's own JDE session, never posts, and sends nothing anywhere else; its
+options and a record of what it entered stay in the browser on the user's computer.
+
 ## Data the extension handles
 
 - **Voucher identifiers.** To look up GL codes the extension sends the voucher's company,
